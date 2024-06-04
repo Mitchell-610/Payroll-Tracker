@@ -38,7 +38,7 @@ const displayAverageSalary = function (employeesArray) {
   let totalSalary;
   if (salaries.length > 0) {
     salaries = salaries.map(salary => typeof salary === 'string' ? parseInt(salary, 10) : salary);
-   
+    totalSalary = salaries.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
   } 
   else {
   }
