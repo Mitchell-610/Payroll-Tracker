@@ -22,6 +22,7 @@ const collectEmployees = function () {
       salary: salary
     }
     employees.push(employee)
+    addingEmployees = confirm(`Would you like to add another employee?`);
 
   }
 
