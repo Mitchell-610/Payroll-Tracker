@@ -7,6 +7,8 @@ const collectEmployees = function () {
   const employees = [];
   let addingEmployees = true;
   while (addingEmployees) {
+    const firstName = prompt(`Enter first name.`);
+
   }
 
 }
