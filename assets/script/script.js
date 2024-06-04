@@ -21,6 +21,8 @@ const collectEmployees = function () {
       lastName: lastName,
       salary: salary
     }
+    employees.push(employee)
+
   }
 
 }
