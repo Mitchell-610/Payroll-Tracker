@@ -43,6 +43,8 @@ const displayAverageSalary = function (employeesArray) {
   else {
     console.log("No salaries found."); // Output if the salaries array is empty
   }
+  console.log(totalSalary); //Tells you the totalSalary
+ 
 
 }
 
