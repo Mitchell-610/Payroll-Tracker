@@ -23,8 +23,8 @@ const collectEmployees = function () {
     }
     employees.push(employee)
     addingEmployees = confirm(`Would you like to add another employee?`);
-
   }
+  console.log(employees);
 
 }
 
