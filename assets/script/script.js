@@ -48,6 +48,7 @@ const displayAverageSalary = function (employeesArray) {
   console.log(averageSalary); //Tells you the averageSalary
   console.log(`There are ${employeesArray.length} employees`)//Logs winner
   console.log(`The total salary is $ ${totalSalary} `);//Logs total salary
+  console.log(`The average salary is $ ${averageSalary} `);//Logs the average Salary
 
 }
 
