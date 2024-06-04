@@ -12,8 +12,9 @@ const collectEmployees = function () {
 
     const lastName = prompt(`Enter last name.`);
     console.log(`${lastName} as a Last name logged.`);
-    
+
     const salary = prompt(`Enter disered Salary.`);
+    console.log(`${salary} as a Disered Salary logged.`);
 
   }
 
