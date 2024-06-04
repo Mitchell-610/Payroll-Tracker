@@ -17,7 +17,9 @@ const collectEmployees = function () {
     console.log(`${salary} as a Disered Salary logged.`);
 
     let employee = {
-     
+      firstName: firstName,
+      lastName: lastName,
+      salary: salary
     }
   }
 
