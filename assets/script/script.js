@@ -35,7 +35,7 @@ const displayAverageSalary = function (employeesArray) {
   // TODO: Calculate and display the average salary
   let salaries = employeesArray.map(employee => employee.salary);
   console.log(salaries);
- 
+  let totalSalary;
 
 }
 
