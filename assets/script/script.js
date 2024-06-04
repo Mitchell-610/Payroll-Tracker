@@ -36,6 +36,11 @@ const displayAverageSalary = function (employeesArray) {
   let salaries = employeesArray.map(employee => employee.salary);
   console.log(salaries);
   let totalSalary;
+  if (salaries.length > 0) {
+  
+  } 
+  else {
+  }
 
 }
 
