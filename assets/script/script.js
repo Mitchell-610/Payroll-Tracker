@@ -15,10 +15,7 @@ const collectEmployees = function () {
 
     const salary = prompt(`Enter disered Salary.`);
     console.log(`${salary} as a Disered Salary logged.`);
-    if (isNaN(salary) || salary === null){
-      salary = `0`;
-    }
-
+   
     let employee = {
       firstName: firstName,
       lastName: lastName,
@@ -60,11 +57,6 @@ const getRandomEmployee = function (employeesArray) {
   // TODO: Select and display a random employee
   let randomEmployee = Math.floor(Math.random() * employeesArray.length);
   console.log(`Congrats to ${employeesArray[randomEmployee].firstName} ${employeesArray[randomEmployee].lastName} for being randomly selected.`);
-
-  let w = employeesArray[randomEmployee];
-  alert(`Congrats to ${w} on being selected.`);
-
-
 
 }
 
