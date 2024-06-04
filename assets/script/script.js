@@ -44,7 +44,8 @@ const displayAverageSalary = function (employeesArray) {
     console.log("No salaries found."); // Output if the salaries array is empty
   }
   console.log(totalSalary); //Tells you the totalSalary
- 
+  let averageSalary = totalSalary / salaries.length;//Gets the average salary
+
 
 }
 
