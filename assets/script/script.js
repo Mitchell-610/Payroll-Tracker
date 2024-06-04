@@ -9,8 +9,9 @@ const collectEmployees = function () {
   while (addingEmployees) {
     const firstName = prompt(`Enter first name.`);
     console.log(`${firstName} as a First name logged.`);
-    
+
     const lastName = prompt(`Enter last name.`);
+    console.log(`${lastName} as a Last name logged.`);
 
   }
 
