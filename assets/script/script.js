@@ -41,8 +41,8 @@ const displayAverageSalary = function (employeesArray) {
     totalSalary = salaries.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
   } 
   else {
+    console.log("No salaries found."); // Output if the salaries array is empty
   }
- 
 
 }
 
