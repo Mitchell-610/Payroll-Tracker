@@ -32,6 +32,7 @@ const collectEmployees = function () {
 const displayAverageSalary = function (employeesArray) {
   // TODO: Calculate and display the average salary
   let  totalEmployees = 0
+  let totalSalary = 0;
 
 }
 
