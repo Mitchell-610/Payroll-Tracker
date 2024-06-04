@@ -16,6 +16,9 @@ const collectEmployees = function () {
     const salary = prompt(`Enter disered Salary.`);
     console.log(`${salary} as a Disered Salary logged.`);
 
+    let employee = {
+     
+    }
   }
 
 }
